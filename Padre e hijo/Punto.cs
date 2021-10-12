@@ -8,8 +8,8 @@ namespace Padre_e_hijo
 {
     class Punto
     {
-        private double x;
-
+        protected double x;
+        
         public double X
         {
             get
@@ -36,6 +36,7 @@ namespace Padre_e_hijo
         {
             double d = 0;
             d = x - p.x;
+            d = Math.Abs(d);
             return d;
         }
         public override string ToString()
