@@ -24,13 +24,16 @@ namespace Padre_e_hijo
             Console.WriteLine("Distancia " + d);
 
             Punto3D c;
-            c = new Punto3D(98, 76);
+            c = new Punto3D(98, 76, 102);
             Console.WriteLine(c.ToString());
 
-            Punto3D e;
-            e = new Punto3D(30, 21);
+            c = new Punto3D(95, 60, 201);
+            Console.WriteLine(c.ToString());
 
-            Console.WriteLine(e.ToString());
+            c = new Punto3D(84, 71, 11);
+            Console.WriteLine(c.ToString());
+
+            Console.WriteLine("Distancia " + d);
 
 
         
